@@ -6,7 +6,6 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		rigidbody.constraints = RigidbodyConstraints.FreezePositionX;
 	}
 	
 	// Update is called once per frame
