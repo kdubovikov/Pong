@@ -3,9 +3,11 @@ using System.Collections;
 
 public class PlayerController : MonoBehaviour {
 	public float speed = 0.5F;
+	private Animator animator;
 
 	// Use this for initialization
 	void Start () {
+		animator = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame

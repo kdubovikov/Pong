@@ -2,13 +2,14 @@
 using System.Collections;
 
 public class BallController : MonoBehaviour {
-	public float startingSpeed = 1.0F;
+	public float startingSpeed = 3.0F;
 	public float acceleration = 0.1F;
-	public float maxSpeed = 3.0F;
+	public float maxSpeed = 6.0F;
 
 	// Use this for initialization
 	void Start () {
 		rigidbody2D.velocity = new Vector2(1, -1) * startingSpeed;
+		Debug.Log(rigidbody2D.velocity);
 	}
 	
 	// Update is called once per frame
